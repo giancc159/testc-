@@ -137,44 +137,37 @@ export const experience = [
     company: 'Binarios',
     companylogo: binariosLogo,
     date: 'Jan 2021 – Present',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
+    desc: 'I develop applications with Flutter, Firebase and Kotlin, in addition, I built websites and backend for some apps.',
   },
   {
     role: 'Mobile Developer',
     company: 'CoreSystems',
     companylogo: core,
     date: 'Mar 2020 – Jan 2021',
-    desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    desc: `I did development of new features and maintenance for client's mobile applications, writing quality code.`,
   },
   {
-    role: 'Backend Developer',
+    role: 'Web Developer',
     company: 'Ionica Source',
     companylogo: github,
     date: 'Jan 2020 – Present',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    desc: 'I have built some administrative web applications, using Angular, NodeJs and MySQL as database engine.',
   },
 ]
 
 export const projects = [
   {
     name: "CafeNica Recolección",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    desc: "A mobile application to collect information for crop management and disease prevention.",
     image: project,
     link: {
       name: "Go",
-      url: "http://cafenica.net/2021/04/21/uso-de-herramientas-tecnologicas-dentro-del-proceso-del-sistema-de-alerta-temprana-clima-y-cafe/"
+      url: "https://play.google.com/store/apps/details?id=info.cafenica.recoleccion"
     }
   },
   {
     name: "Binarios Web",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    desc: "Binarios company landing page, deployed in the cloud, allows sending emails.",
     image: project,
     link: {
       name: "Go",
@@ -183,7 +176,7 @@ export const projects = [
   },
   {
     name: "Crypto Currency Web App",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    desc: "Web application created with ReactJS that allows you to view basic information about cryptocurrencies.",
     image: project,
     link: {
       name: "Go",
@@ -192,8 +185,8 @@ export const projects = [
   },
   {
     image: project,
-    name: "Web Application",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "TechnoCar Web",
+    desc: "Angular web application for invoicing and inventory management.",
   }
   
 ]
