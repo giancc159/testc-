@@ -4,7 +4,8 @@ import binariosLogo from './assets/img/icons/common/binarios.png'
 import github from './assets/img/icons/common/github.svg'
 import core from './assets/img/icons/common/core.jpg'
 import resume from './assets/docs/ErickFarinas-Resume.pdf';
-import project from './assets/img/binarios.PNG';
+import binariosImg from './assets/img/binarios.PNG';
+import technocarImg from './assets/img/technocar.PNG';
 
 export const greetings = {
     "name": "Erick Fariñas",
@@ -39,7 +40,7 @@ export const skillsSection = {
     skills: [
       emoji(
         `⚡ I enjoy creating software solutions that help other people.
-        My interest in software development began in 2016 when I decided to enter to study
+        My interest in software development began in 2016 when I decided to study
         software engineering. Since then I have been passionate about making mobile applications!
                   `
       ),
@@ -159,7 +160,7 @@ export const projects = [
   {
     name: "CafeNica Recolección",
     desc: "A mobile application to collect information for crop management and disease prevention.",
-    image: project,
+    image: binariosImg,
     link: {
       name: "Go",
       url: "https://play.google.com/store/apps/details?id=info.cafenica.recoleccion"
@@ -168,7 +169,7 @@ export const projects = [
   {
     name: "Binarios Web",
     desc: "Binarios company landing page, deployed in the cloud, allows sending emails.",
-    image: project,
+    image: binariosImg,
     link: {
       name: "Go",
       url: "https://www.binarios.io"
@@ -177,16 +178,20 @@ export const projects = [
   {
     name: "Crypto Currency Web App",
     desc: "Web application created with ReactJS that allows you to view basic information about cryptocurrencies.",
-    image: project,
+    image: binariosImg,
     link: {
       name: "Go",
       url: "https://www.google.com"
     }
   },
   {
-    image: project,
+    image: technocarImg,
     name: "TechnoCar Web",
     desc: "Angular web application for invoicing and inventory management.",
+    link: {
+      name: "Go",
+      url: technocarImg
+    }
   }
   
 ]
