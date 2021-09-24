@@ -1,7 +1,7 @@
 import emoji from 'react-easy-emoji';
 
 import binariosLogo from './assets/img/icons/common/binarios.png'
-import github from './assets/img/icons/common/github.svg'
+import ionica from './assets/img/icons/common/IONICA.png'
 import core from './assets/img/icons/common/core.jpg'
 import resume from './assets/docs/ErickFarinas-Resume.pdf';
 import binariosImg from './assets/img/binarios.PNG';
@@ -151,7 +151,7 @@ export const experience = [
   {
     role: 'Web Developer',
     company: 'Ionica Source',
-    companylogo: github,
+    companylogo: ionica,
     date: 'Jan 2020 – Present',
     desc: 'I have built some administrative web applications, using Angular, NodeJs and MySQL as database engine.',
   },
