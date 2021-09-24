@@ -6,6 +6,7 @@ import core from './assets/img/icons/common/core.jpg'
 import resume from './assets/docs/ErickFarinas-Resume.pdf';
 import binariosImg from './assets/img/binarios.PNG';
 import technocarImg from './assets/img/technocar.PNG';
+import cnImg from './assets/img/climaycafe.png';
 
 export const greetings = {
     "name": "Erick Fariñas",
@@ -160,7 +161,7 @@ export const projects = [
   {
     name: "CafeNica Recolección",
     desc: "A mobile application to collect information for crop management and disease prevention.",
-    image: binariosImg,
+    image: cnImg,
     link: {
       name: "Go",
       url: "https://play.google.com/store/apps/details?id=info.cafenica.recoleccion"
