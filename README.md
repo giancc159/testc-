@@ -1,5 +1,5 @@
-# developer-portfolio <a href="https://github.com/farinas09/portfolio/main/LICENSE"><img alt="GitHub stars" src="https://img.shields.io/github/stars/farinas09/portfolio"></a> 
-## My personal portfolio built with react.js, bootstrap and Argon Dashboard template.
+# Portfolio <a href="https://github.com/farinas09/portfolio/main/LICENSE"><img alt="GitHub stars" src="https://img.shields.io/github/stars/farinas09/portfolio"></a> 
+## My personal portfolio built with React.js, Bootstrap and Argon template.
 
 <p align="center">
   <kbd>
