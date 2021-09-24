@@ -3,7 +3,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/farinas09/portfolio/main/picture.PNG"></img>
+    <img src="https://github.com/farinas09/portfolio/blob/main/picture.PNG"></img>
   </kbd>
 </p>
 
