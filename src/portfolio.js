@@ -1,26 +1,34 @@
 import emoji from 'react-easy-emoji';
 
 import binariosLogo from './assets/img/icons/common/binarios.png'
-import ionica from './assets/img/icons/common/IONICA.png'
+import m6 from './assets/img/icons/common/m6.png'
+import cloud from './assets/img/icons/common/cloudcreations.PNG'
+import tecpat from './assets/img/icons/common/tecpat.png'
+import up from './assets/img/icons/common/up.PNG'
+
 import core from './assets/img/icons/common/core.jpg'
 import resume from './assets/docs/ErickFarinas-Resume.pdf';
 import binariosImg from './assets/img/binarios.PNG';
 import technocarImg from './assets/img/technocar.PNG';
-import cnImg from './assets/img/climaycafe.png';
+import fs1 from './assets/img/fullstack1.PNG';
+import ccf from './assets/img/imagencarlos.PNG';
+import c1 from './assets/img/clinica1.PNG';
+import sanna from './assets/img/sanna.PNG';
+
 
 export const greetings = {
-    "name": "Erick Fariñas",
-    "headerName": "Erick Farinas",
-    "title": "Hi, I'm Erick Fariñas",
+    "name": "Gian",
+    "headerName": "Gian",
+    "title": "Hi, I'm Gian ",
     "subtitle": "I build software for the world.",
-    "description": `I'm a Nicaragua-based software developer who specializes in building
-    exceptional mobile apps and websites to improve digital experience for users.
-    Currently, I'm an engineer at Binarios focused on building apps with flutter and firebase.`,
+    "description": `I'm a software developer who specializes in building
+    exceptional websites to improve digital experience for users.
+   `,
     "resumeLink": resume
 }
 
 export const openSource = {
-  githubUserName: 'farinas09',
+  githubUserName: 'giandd159',
 };
 
 export const contact = {
@@ -28,40 +36,39 @@ export const contact = {
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/farinas09",
-    "instagram": "https://www.instagram.com/farinas09",
-    "twitter": "https://twitter.com/efarinas99",
-    "github": "https://github.com/farinas09",
-    "linkedin": "https://www.linkedin.com/in/efarinas/"
+    //"facebook": "https://www.facebook.com/farinas09",
+    //"instagram": "https://www.instagram.com/farinas09",
+    //"twitter": "https://twitter.com/efarinas99",
+    "github": "https://github.com/giandd159",
+    "linkedin": "https://www.linkedin.com/in/giandd159/"
 }
 
 export const skillsSection = {
     title: 'My Skills',
-    description: `Here are a few technologies I've been working with recently and my skills:`,
+    description: `Some technologies I've been working with recently and my skills:`,
     skills: [
       emoji(
         `⚡ I enjoy creating software solutions that help other people.
-        My interest in software development began in 2016 when I decided to study
+        My interest in software development began in 2014 when I decided to study
         software engineering. Since then I have been passionate about making mobile applications!
                   `
       ),
-      emoji(`⚡ I improved my skills, I finished my degree in software engineering.
-      My main focus today is improving digital experiences at Binarios for a variety of clients.`),
+      emoji(`⚡ Currently, I have bachelor degree in System Engineering and a Cisco certificate.`),
       
     ],
     
     softwareSkills: [
       {
-        skillName: 'Flutter',
-        fontAwesomeClassname: 'logos:flutter',
+        skillName: 'Vue',
+        fontAwesomeClassname: 'logos:vue',
       },
       {
-        skillName: 'Kotlin',
-        fontAwesomeClassname: 'logos:kotlin',
+        skillName: 'Laravel',
+        fontAwesomeClassname: 'logos:laravel',
       },
       {
-        skillName: 'Java',
-        fontAwesomeClassname: 'logos:java',
+        skillName: 'AWS',
+        fontAwesomeClassname: 'logos:aws',
       },
       {
         skillName: 'Firebase',
@@ -76,8 +83,8 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:react',
       },
       {
-        skillName: 'Angular',
-        fontAwesomeClassname: 'logos:angular-icon',
+        skillName: 'docker',
+        fontAwesomeClassname: 'logos:docker',
       },
       {
         skillName: 'MySQL',
@@ -135,63 +142,70 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Binarios',
-    companylogo: binariosLogo,
-    date: 'Jan 2021 – Present',
-    desc: 'I develop applications with Flutter, Firebase and Kotlin, in addition, I built websites and backend for some apps.',
+    role: 'Front-End Developer',
+    company: 'M6 Connect',
+    companylogo: m6,
+    date: 'March 2021 – August 2021',
+    desc: 'I developed applications with Vue Js, MySQL and AWS, in addition, I built websites and backend for some modules.',
   },
   {
-    role: 'Mobile Developer',
-    company: 'CoreSystems',
-    companylogo: core,
-    date: 'Mar 2020 – Jan 2021',
-    desc: `I did development of new features and maintenance for client's mobile applications, writing quality code.`,
+    role: 'Front-End Developer',
+    company: 'Cloud Creations',
+    companylogo: cloud,
+    date: 'October 2020 – March 2021',
+    desc: `I did development of new features and maintenance for client's in Salesforce Web applications, writing quality code and reports.`,
   },
   {
-    role: 'Web Developer',
-    company: 'Ionica Source',
-    companylogo: ionica,
-    date: 'Jan 2020 – Present',
-    desc: 'I have built some administrative web applications, using Angular, NodeJs and MySQL as database engine.',
+    role: 'Laravel / Javascript Dev',
+    company: 'Tecnologia Patrimonial',
+    companylogo: tecpat,
+    date: 'Nov 2019 – Nov 2020',
+    desc: 'I have built  administrative web applications written in JavaScript, Laravel and MySQL as database engine.',
   },
+  {
+    role: 'Web Developer ',
+    company: 'University',
+    companylogo: up,
+    date: 'May 2019 – Nov 2020',
+    desc: 'I  built  modules of a Virtual classroom web application written in JavaScript, Laravel and MySQL as database engine.Besides, Some informative websites with Wordpress',
+  }
 ]
 
 export const projects = [
   {
-    name: "CafeNica Recolección",
-    desc: "A mobile application to collect information for crop management and disease prevention.",
-    image: cnImg,
+    name: "Management of Blogs,Categories like a CMS",
+    desc: "A web application to collect information for management of blogs,categories,posts created with VueJS and Laravel",
+    image: fs1,
     link: {
       name: "Go",
-      url: "https://play.google.com/store/apps/details?id=info.cafenica.recoleccion"
+      url: "https://fullstack1.xyz/"
     }
   },
   {
-    name: "Binarios Web",
-    desc: "Binarios company landing page, deployed in the cloud, allows sending emails.",
-    image: binariosImg,
+    name: "Institute Carlos F.",
+    desc: "It's an institute which offers educational services to people created with Javascript,Wordpress and HTML/Bootstrap",
+    image: ccf,
     link: {
       name: "Go",
-      url: "https://www.binarios.io"
+      url: "https://instituteccueto.com/"
     }
   },
   {
-    name: "Crypto Currency Web App",
-    desc: "Web application created with ReactJS that allows you to view basic information about cryptocurrencies.",
-    image: binariosImg,
+    name: "Clinic Death",
+    desc: "Web application created with JavaScript and HTML that allows you to view information related to Medical Services.",
+    image: c1,
     link: {
       name: "Go",
-      url: "https://www.google.com"
+      url: "https://clinicadeath1.xyz/"
     }
   },
   {
-    image: technocarImg,
-    name: "TechnoCar Web",
-    desc: "Angular web application for invoicing and inventory management.",
+    image: sanna,
+    name: "Medical Web",
+    desc: "Medical Web System created with JavaScript/Laravel/HTML/Bootstrap for medical services .",
     link: {
       name: "Go",
-      url: technocarImg
+      url: sanna
     }
   }
   
