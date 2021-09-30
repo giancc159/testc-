@@ -21,7 +21,7 @@ const ProjectsCard = ({ data }) => {
           {data.link ? (
             <a
               href={data.link.url}
-              class="stretched-link"
+              className="stretched-link"
               target="_blank"
               rel="noreferrer"
               aria-hidden="true"

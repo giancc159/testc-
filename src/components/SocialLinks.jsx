@@ -9,26 +9,7 @@ const SocialLinks = () => {
         <div className="btn-wrapper text-lg">
            
               
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="github"
-                  href={socialLinks.github}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
-                  </span>
-                </Button>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="twitter"
-                  href={socialLinks.linkedin}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-linkedin" />
-                  </span>
-                </Button>
+              
         </div>
      );
 }
