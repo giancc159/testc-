@@ -24,15 +24,15 @@ const ExperienceCard = ({data}) => {
         setColorArrays(colorThief.getColor(imgRef.current));
     }
 
-    function rgb(values) {
-        return typeof values === "undefined" ? null : "rgb(" + values.join(', ') + ")";
-    }
+    //function rgb(values) {
+   //     return typeof values === "undefined" ? null : "rgb(" + values.join(', ') + ")";
+   // }
 
     return ( 
         <Col lg="4">
         <Fade left duration={1000} distance="40px">
             <Card style={{flex: 1}} className="shadow-lg--hover shadow border-0 text-center rounded">
-                <CardHeader style={{background: rgb(colorArrays)}} >
+                <CardHeader style={{backgroundColor: 'blue'}} >
                     <h5 className="text-white">{data.company}</h5>
                 </CardHeader>
                 <CardBody className="py-5">

@@ -12,7 +12,7 @@ const GithubProfile = () => {
             .catch(err => console.log(err))
     }
     useEffect(() => {
-        getProfileData()
+        // getProfileData()
     });
     return ( 
         <Suspense fallback={<Loading />}>

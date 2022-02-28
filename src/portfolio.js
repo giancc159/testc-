@@ -146,7 +146,7 @@ export const experience = [
     company: 'M6 Connect',
     companylogo: m6,
     date: 'March 2021 – August 2021',
-    desc: 'I developed applications with Vue Js, MySQL and AWS, in addition, I built websites and backend for some modules.',
+    desc: 'I developed applications related to  Video Merging and trimming for Marketing Area with Vue Js, MySQL, JavaScript, Laravel, Github, PHP,NodeJS.'
   },
   {
     role: 'Front-End Developer',
@@ -157,17 +157,17 @@ export const experience = [
   },
   {
     role: 'Laravel / Javascript Dev',
-    company: 'Tecnologia Patrimonial',
+    company: 'Tecnología Patrimonial',
     companylogo: tecpat,
     date: 'Nov 2019 – Nov 2020',
-    desc: 'I have built  administrative web applications written in JavaScript, Laravel and MySQL as database engine.',
+    desc: 'I have built  administrative web applications related to Inventory System written in JavaScript, Laravel and MySQL as database engine.',
   },
   {
     role: 'Web Developer ',
     company: 'University',
     companylogo: up,
-    date: 'May 2019 – Nov 2020',
-    desc: 'I  built  modules of a Virtual classroom web application written in JavaScript, Laravel and MySQL as database engine.Besides, Some informative websites with Wordpress',
+    date: 'May 2019 – Nov 2019',
+    desc: 'I  built  modules of a Virtual classroom web application written in JavaScript, Laravel and MySQL as database engine.Besides, some informative websites with Wordpress',
   }
 ]
 
@@ -191,8 +191,8 @@ export const projects = [
     }
   },
   {
-    name: "Clinic Death",
-    desc: "Web application created with JavaScript and HTML that allows you to view information related to Medical Services.",
+    name: "Clinic Services",
+    desc: "Web application created with JavaScript and HTML that allows you to view information related to medical services.",
     image: c1,
     link: {
       name: "Go",
