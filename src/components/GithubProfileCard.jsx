@@ -24,9 +24,11 @@ const GithubProfileCard = ({prof}) => {
                         Reach Out to me!
                       </h2>
                       <p className="lead text-white mt-3">
-                        Discuss a project or just want to say hi? My inbox is open for all
+                        Discuss a project or just want to say hi? Let's talk about this. :)
                       </p>
-                      <p className="lead text-white mt-3">Send me a message to my mail giandd159@gmail.com</p>
+                      <p className="lead text-white mt-3">
+                      I'm a Web Developer
+                       </p>
                      
                       <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                         <i className="ni ni-pin-3 text-info mr-2" />

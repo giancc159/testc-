@@ -166,7 +166,7 @@ export const experience = [
     role: 'Web Developer ',
     company: 'University',
     companylogo: up,
-    date: 'May 2019 – Nov 2020',
+    date: 'May 2019 – Nov 2019',
     desc: 'I  built  modules of a Virtual classroom web application written in JavaScript, Laravel and MySQL as database engine.Besides, some informative websites with Wordpress',
   }
 ]
