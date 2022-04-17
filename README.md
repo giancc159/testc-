@@ -1,13 +1,13 @@
-# Portfolio <a href="https://github.com/farinas09/portfolio/main/LICENSE"><img alt="GitHub stars" src="https://img.shields.io/github/stars/farinas09/portfolio"></a> 
+<!-- # Portfolio <a href="https://github.com/farinas09/portfolio/main/LICENSE"><img alt="GitHub stars" src="https://img.shields.io/github/stars/farinas09/portfolio"></a> 
 ## My personal portfolio built with React.js, Bootstrap and Argon template.
 
 <p align="center">
   <kbd>
     <img src="https://github.com/farinas09/portfolio/blob/main/picture.PNG"></img>
   </kbd>
-</p>
+</p> -->
 
-### To visit my production site, **[click here](https://portfolio-8g8oi.ondigitalocean.app/)**.
+<!-- ### To visit my production site, **[click here](https://portfolio-8g8oi.ondigitalocean.app/)**. -->
 
 ## Sections
 ✔️ About me\
