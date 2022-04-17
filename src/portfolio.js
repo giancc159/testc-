@@ -143,10 +143,10 @@ export const educationInfo = [
 export const experience = [
   {
     role: 'Front-End Developer',
-    company: 'M6 Connect',
+    company: 'M6 Enterprise',
     companylogo: m6,
-    date: 'March 2021 – August 2021',
-    desc: 'I developed applications related to  Video Merging and trimming for Marketing Area with Vue Js, MySQL, JavaScript, Laravel, Github, PHP,NodeJS.'
+    date: 'March 2021 – January 2022',
+    desc: 'I developed applications related to  Video Merging and trimming for Marketing Area with Vue Js, MySQL, JavaScript, Laravel, Github, PHP,NodeJS.Also, I developed a ecommerce made with React JS'
   },
   {
     role: 'Front-End Developer',
