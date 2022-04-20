@@ -15,6 +15,7 @@ import ccf from './assets/img/imagencarlos.PNG';
 import c1 from './assets/img/clinica1.PNG';
 import sanna from './assets/img/sanna.PNG';
 
+import ecommerce from './assets/img/ecommerce.jpg';
 
 export const greetings = {
     "name": "Gian",
@@ -172,6 +173,15 @@ export const experience = [
 ]
 
 export const projects = [
+  {
+    name: " Ecommerce system",
+    desc: "Ecommerce to sell goods over the internet",
+    image: ecommerce,
+    link: {
+      name: "Go",
+      url: "https://goodnewsecommerce.xyz"
+    }
+  },
   {
     name: "Management of Blogs,Categories like a CMS",
     desc: "A web application to collect information for management of blogs,categories,posts created with VueJS and Laravel",
