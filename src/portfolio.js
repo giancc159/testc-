@@ -156,13 +156,7 @@ export const experience = [
     date: 'May 2020 – October 2020',
     desc: `I did development of new features and maintenance for client's in Salesforce Web applications, writing quality code and reports.`,
   },
-  {
-    role: 'Laravel / Javascript Dev',
-    company: 'Tecnología Patrimonial',
-    companylogo: tecpat,
-    date: 'Nov 2019 – Nov 2020',
-    desc: 'I have built  administrative web applications related to Inventory System written in JavaScript, Laravel and MySQL as database engine.',
-  },
+
   {
     role: 'Web Developer ',
     company: 'University',
