@@ -1,7 +1,7 @@
 import emoji from 'react-easy-emoji';
 
 import binariosLogo from './assets/img/icons/common/binarios.png'
-import m6 from './assets/img/icons/common/m6.png'
+import m6 from './assets/img/icons/common/fractal.JPG'
 import cloud from './assets/img/icons/common/cloudcreations.PNG'
 import tecpat from './assets/img/icons/common/tecpat.png'
 import up from './assets/img/icons/common/up.PNG'
@@ -144,16 +144,16 @@ export const educationInfo = [
 export const experience = [
   {
     role: 'Front-End Developer',
-    company: 'M6 Enterprise',
+    company: 'Fractal',
     companylogo: m6,
-    date: 'March 2021 – January 2022',
+    date: 'October 2020 – June 2022',
     desc: 'I developed applications related to  Video Merging and trimming for Marketing Area with Vue Js, MySQL, JavaScript, Laravel, Github, PHP,NodeJS.Also, I developed a ecommerce made with React JS'
   },
   {
     role: 'Front-End Developer',
     company: 'Cloud Creations',
     companylogo: cloud,
-    date: 'October 2020 – March 2021',
+    date: 'May 2020 – October 2020',
     desc: `I did development of new features and maintenance for client's in Salesforce Web applications, writing quality code and reports.`,
   },
   {
